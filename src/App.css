@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,300i,400,400i,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
 
 body {
   font-family: "Open Sans", serif;
@@ -38,7 +39,7 @@ body {
   font-size: 50px;
   letter-spacing: 2px;
   line-height: 1.3;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Lato', serif;
 }
 
 .title-container__subtitle {
@@ -97,6 +98,11 @@ button {
 
 button:active {
   outline: none;
+}
+
+button:hover {
+  background-color: #0FA2D6;
+  transition: background-color 0.4s;
 }
 
 .weather__info {
