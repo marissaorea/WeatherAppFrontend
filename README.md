@@ -10,3 +10,9 @@ This is a simple weather app that uses the <b>Open Weather</b> API to scrape rea
 
 This app was built using React, Custom CSS & Bootstrap. 
 
+## Install:
+To get a development server running clone the project, type npm install and PORT=4000 npm start.
+
+## License:
+MIT © MarissaOrea
+
