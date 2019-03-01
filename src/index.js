@@ -5,6 +5,7 @@ import "./App.css";
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Loader from 'react-loader-spinner'
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

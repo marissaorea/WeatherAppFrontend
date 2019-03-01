@@ -2,6 +2,7 @@ import React from "react";
 import Titles from "./components/Titles";
 import Form from "./components/Form";
 import Weather from "./components/Weather";
+import Loader from 'react-loader-spinner'
 
 const API_ENDPOINT = "8afa950031150cefc07a5f791ec41b35";
 
@@ -12,7 +13,8 @@ class App extends React.Component {
     country: null,
     humidity: null,
     description: null,
-    error: undefined
+    error: undefined,
+    loading: true
   };
 
   getWeather = async event => {
