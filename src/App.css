@@ -7,7 +7,7 @@ body {
 }
 
 .wrapper {
-  background: linear-gradient(to right, #34F6F2, #5DFDCB);
+  background: linear-gradient(to right, #A5F5FC, #75A6F8);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -50,7 +50,7 @@ body {
 }
 
 .form-container {
-  background-color: #2c3e50;
+  background-color: #25283D;
   height: 90vh;
   padding-top: 100px;
   padding-left: 70px;
@@ -61,7 +61,7 @@ body {
 input[type="text"] {
   background-color: transparent;
   border: 0;
-  border-bottom: solid 1px #f16051;
+  border-bottom: solid 1px #11BDF9;
   width: 30%;
   padding-bottom: 4px;
   color: #fff !important;
@@ -77,7 +77,7 @@ input[type="text"] {
 }
 
 input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
+    -webkit-box-shadow: 0 0 0 30px #25283D inset;
     -webkit-text-fill-color: #fff !important;
 }
 
@@ -89,8 +89,8 @@ button {
   font-weight: lighter;
   letter-spacing: 1px;
   font-size: 15px;
-  cursor: pointer;
-  background-color: #f16051;
+  cursor: grab;
+  background-color: #11BDF9;
   color: #fff;
   font-weight: 100;
 }
@@ -107,7 +107,7 @@ button:active {
 }
 
 .weather__key {
-  color: #f16051;
+  color: #11BDF9;
   border-bottom: solid 2px rgba(255,255,255,0.06);
   padding: 20px 0 20px 0;
   font-weight: 400;
